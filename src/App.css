@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+  font-family: "DM Sans", serif;
+  background-color: #F1EFEF;
+}
+
+h1 {
+  color: #27272F;
+}
+
+p {
+  color: #1D1D1D;
+}
+
+.gradient {
+  background: linear-gradient(86.55deg, #8E2DE2 24.13%, #4A00E0 78.74%);
+}
+
+.text-gradient{
+  background: linear-gradient(86.55deg, #8E2DE2 24.13%, #4A00E0 78.74%);
+  color: transparent;
+  background-clip: text;
+
+}
+
+ul li{
+  list-style-type: disc;
+  list-style-position: inside;
+  color: #303030;
+}
+
+.hero{
+  background-color: #311BBC;
+  background-image: url('/images/pattern.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+}
