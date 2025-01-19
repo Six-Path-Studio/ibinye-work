@@ -5,6 +5,26 @@ import 'swiper/css/autoplay';
 import { Autoplay } from 'swiper/modules';
 
 const Testimonials = () => {
+  const testimonial = [
+    {
+      image: "user",
+      name: "Tawam Rahman, ",
+      title: "Founder of TrendyWear",
+      text: "Apexium Solutions completely transformed our online store. From setting up the platform to integrating logistics, everything was handled flawlessly. Their team’s attention to detail and commitment to excellence is unmatched."
+    },
+    {
+      image: "user2",
+      name: "Tunde Balogun",
+      title: "StyleVault Marketplace",
+      text: "Apexium Solutions has transformed the way we do business. Their platform makes it incredibly easy to connect with customers, showcase our products, and manage transactions seamlessly"
+    },
+    {
+      image: "user1",
+      name: "Queenesa Oladejo",
+      title: " CEO of Prime Home ",
+      text: "Partnering with Apexium Solutions has been a game-changer for our business. Their intuitive platform and comprehensive logistics services have streamlined our operations from start to finish."
+    },
+  ]
   return (
     <section className="bg-white lg:px-20 p-4 py-20 relative">
       <p className="text-gradient sm:text-sm text-center">Digital Analytics & Strategy Consulting Agency</p>
@@ -17,17 +37,17 @@ const Testimonials = () => {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {[1, 2, 3].map((_, index) => <SwiperSlide key={index}>
+        {testimonial.map((single, index) => <SwiperSlide key={index}>
           <div className="rounded-3xl lg:p-16 p-6 gradient mt-10">
             <div className="flex justify-center">
-              <img src="/images/user.png" alt="" />
+              <img src={`/images/${single.image}.png`} alt="" />
               <div className="my-auto ml-4">
-                <p className="font-medium text-white">Tawam Rahman, </p>
-                <p className="text-white text-sm">Founder of TrendyWear</p>
+                <p className="font-medium text-white">{single.name} </p>
+                <p className="text-white text-sm">{single.title}</p>
               </div>
             </div>
             <div className="lg:text-3xl sm:mt-4 lg:p-8 text-center text-white">
-              Apexium Solutions completely transformed our online store. From setting up the platform to integrating logistics, everything was handled flawlessly. Their team’s attention to detail and commitment to excellence is unmatched.
+              {single.text}
             </div>
           </div>
         </SwiperSlide>)}

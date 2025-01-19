@@ -25,8 +25,9 @@ const HeaderNav = () => {
       <div className="flex justify-between items-center lg:px-20 px-4 py-5 text-white">
         {/* Logo */}
         <div className="flex">
-          <h1 className="text-lg text-white my-auto font-bold">Logo</h1>
+          {/* <h1 className="text-lg text-white my-auto font-bold">Logo</h1> */}
 
+          <img src="/images/logo.png" alt="" />
           {/* Desktop Navigation */}
           <nav className="hidden my-auto ml-10 lg:flex space-x-6">
             <Link to="/" className="hover:text-[#FFC107]">Home</Link>

@@ -6,17 +6,16 @@ const contact = () => {
       <Header title={'Contact Us'} text={'Home > Contact Us'} />
       <section data-aos="zoom-in-down" className="lg:px-20 py-20 p-4 lg:flex justify-between">
         <div className="lg:w-[35%]">
-          <h1 className="text-4xl text-[#1F0757] font-medium">Let&apos;s talk about <br />
-            all things!</h1>
+          <h1 className="text-4xl text-[#1F0757] font-medium">Have Questions? <br /> Let’s Chat!</h1>
           <p className="my-4 text-[#8480AE]">Write to us or give us a call. We will reply to you as soon
             as possible. But yes, it can take up to 24 hours.</p>
           <div className="flex my-4">
             <img src="/images/01.png" className="mr-4" alt="" />
-            <p className="my-auto text-[#8480AE]">example@domain.com</p>
+            <p className="my-auto text-[#8480AE]">info@apexiumsolutions.com.ng</p>
           </div>
           <div className="flex my-4">
             <img src="/images/02.png" className="mr-4" alt="" />
-            <p className="my-auto text-[#8480AE]">(+880) 145 2635896</p>
+            <p className="my-auto text-[#8480AE]">(+234) 806-464-3107</p>
           </div>
           <div className="flex my-4">
             <img src="/images/03.png" className="mr-4" alt="" />

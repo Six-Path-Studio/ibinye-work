@@ -16,7 +16,7 @@ const about = () => {
           <button className="gradient p-4 rounded-full px-6 text-white mt-6">Book Now</button>
         </div>
       </section>
-      <ServiceSection />
+      <ServiceSection count={6} />
     </>
   );
 };

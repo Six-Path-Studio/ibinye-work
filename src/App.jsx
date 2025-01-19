@@ -78,7 +78,7 @@ function App() {
           {cards.map((card, index) => <Card key={index} card={card} />)}
         </div>
       </section>
-      <ServiceSection />
+      <ServiceSection count={3} />
       <Testimonials />
     </>
   )

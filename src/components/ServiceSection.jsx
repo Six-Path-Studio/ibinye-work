@@ -1,18 +1,36 @@
 import { Link } from "react-router";
 
-const ServiceSection = () => {
+const ServiceSection = ({ count }) => {
   const pricing = [
     {
       title: "Ecommerce Development",
-      price: '7,000'
+      price: '7,000',
+      list: ["Customizable store design and layout", 'Advanced analytics and reporting tools', 'Multi-language and currency support', 'Standard search and filtering features', '3-month support and maintenance']
     },
     {
       title: "Software Development",
-      price: '4,000'
+      price: '4,000',
+      list: ['Customizable store design and layout', 'Interactive and intuitive UI', 'Better User Experience', 'Advance security', '3-month support and maintenance']
     },
     {
       title: "Mobile Development",
-      price: '4,000'
+      price: '4,000',
+      list: ['Cross platform Development', 'Interactive and intuitive UI', 'Core functionality for basic needs', 'Advance security', '3-month support and maintenance']
+    },
+    {
+      title: "Enterprise Application",
+      price: '8,000',
+      list: ['Fully customizable with integration capabilities', 'Scalability for large businesses', 'Interactive and intuitive UI', 'Full development cycle', '6-month support and maintenance']
+    },
+    {
+      title: "Digital Marketing & Branding",
+      price: '3,500',
+      list: ['Social media management', 'Basic graphic design for ads', 'Advanced SEO & paid campaigns', 'Full-service branding.', 'Full-service branding ']
+    },
+    {
+      title: "Other Custom Services",
+      price: 'Custom',
+      list: ['Logistics', 'Mobile applications', 'Branding', 'Ecommerce', 'Software Development']
     },
   ]
   return (
@@ -35,13 +53,14 @@ const ServiceSection = () => {
           <h1 className='lg:text-5xl text-3xl font-medium'>Apexium Solutions Pricing Plans</h1>
         </div>
         <div className="grid lg:grid-cols-3 gap-3">
-          {pricing.map((price, index) => <div key={index} className="text-center bg-white p-10 rounded-3xl">
+          {pricing.slice(0, count).map((price, index) => <div key={index} className="text-center bg-white p-10 rounded-3xl">
             <h1 className="text-3xl mb-4 font-medium">{price.title}</h1>
             <ul className="text-sm">
-              <li>Customizable store design and layout</li>
-              <li>Advanced analytics and reporting tools</li>
+              {price.list.map((single, index) => <li key={index}>{single}</li>
+              )}
+              {/* <li>Advanced analytics and reporting tools</li>
               <li>Standard search and filtering features</li>
-              <li>3-month support and maintenance</li>
+              <li>3-month support and maintenance</li> */}
             </ul>
             <div className="flex justify-center my-4">
               <h2 className="my-auto mr-2 font-medium">$</h2>
