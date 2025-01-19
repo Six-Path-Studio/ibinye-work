@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 
 const FooterNav = () => {
   return (
@@ -8,10 +9,17 @@ const FooterNav = () => {
       </div>
       <div>
         <h2 className="text-lg font-medium mb-4">Resources</h2>
-        <p className="text-[#D0CACA] my-1">Home</p>
-        <p className="text-[#D0CACA] my-1">About Us</p>
-        <p className="text-[#D0CACA] my-1">Services</p>
+        <Link to={'/'}>
+          <p className="text-[#D0CACA] my-1">Home</p>
+        </Link>
+        <Link to={'/about-us'}>
+          <p className="text-[#D0CACA] my-1">About Us</p>
+        </Link>
+        <Link to={'/services'}>
+          <p className="text-[#D0CACA] my-1">Services</p>
+        </Link>
       </div>
+
       <div>
         <h2 className="text-lg font-medium mb-4">Important Links</h2>
         <p className="text-[#D0CACA] my-1">Privacy Policy</p>
