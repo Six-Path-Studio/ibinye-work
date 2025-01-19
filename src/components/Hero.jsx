@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <section data-aos="fade-down" className="lg:flex hero justify-between lg:p-20 sm:py-20 p-4">
       <div className="my-auto lg:w-1/2">
-        <h1 className="lg:text-6xl text-5xl text-white font-medium">Apexium Solutions: Powering Digital Success</h1>
+        <h1 className="lg:text-6xl text-4xl text-white font-medium">Powering Digital Success</h1>
         <p className="my-6 text-white">At Apexium Solutions, we partner with businesses and consumers to navigate the dynamic digital landscape. We provide a suite of innovative tools and platforms that streamline processes, enhance customer experiences, and unlock new opportunities for growth in the ever-evolving online marketplace.</p>
         <button className="bg-[#FFC107] p-4 px-10 rounded-full mr-4">Book Now</button>
         <Link to={'/services'}>
