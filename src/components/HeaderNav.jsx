@@ -20,7 +20,7 @@ const HeaderNav = () => {
 
 
   return (
-    <header className={`absolute w-full top-0 z-50 transition duration-300 ${isScrolled ? "bg-[#311BBC] shadow-lg" : "bg-transparent"
+    <header className={`fixed w-full top-0 z-50 transition duration-300 ${isScrolled ? "bg-[#311BBC] shadow-lg" : "bg-transparent"
       }`}>
       <div className="flex justify-between items-center lg:px-20 px-4 py-5 text-white">
         {/* Logo */}
