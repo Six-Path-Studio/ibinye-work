@@ -51,8 +51,8 @@ function App() {
   return (
     <>
       <Hero />
-      <section className='lg:flex justify-evenly lg:p-20 p-4 sm:py-20'>
-        <img data-aos="zoom-in" src="/images/about-hero-01.png.png" alt="" />
+      <section className='lg:flex justify-between lg:p-20 p-4 sm:py-20'>
+        <img data-aos="zoom-in" src="/images/hero-2.png" alt="" />
         <div data-aos="fade-up-right" className='lg:w-[45%] my-auto sm:mt-6'>
           <h1 className='lg:text-6xl text-4xl mb-2 font-medium'>Marketplace for Everyone</h1>
           <p>We provide an all-in-one platform that connects consumers, businesses, and service providers, creating a hub for efficient and secure online transactions. </p>
@@ -70,7 +70,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className='lg:p-20 p-4'>
+      <section className='lg:p-20 p-4 sm:mb-6 '>
         <div data-aos="fade-left" className='lg:w-[40%] mx-auto text-center mb-10'>
           <p className='text-gradient'>Best Of Our Working Process</p>
           <h1 className='lg:text-5xl text-3xl font-medium'>How our solutions help your business</h1>
