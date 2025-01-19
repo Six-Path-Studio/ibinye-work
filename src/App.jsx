@@ -7,6 +7,7 @@ import Testimonials from './components/Testimonials'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import PricingCard from './components/PricingCard'
 function App() {
   const cards = [
     {
@@ -78,7 +79,8 @@ function App() {
           {cards.map((card, index) => <Card key={index} card={card} />)}
         </div>
       </section>
-      <ServiceSection count={3} />
+      <ServiceSection />
+      <PricingCard count={3} />
       <Testimonials />
     </>
   )

@@ -5,8 +5,8 @@ const FooterNav = () => {
     <footer className="bg-[#1B1B1B] py-20 lg:px-20 px-4 text-white gap-6 grid lg:grid-cols-4">
       <div>
         {/* <h1 className="font-bold text-white mb-4 text-xl">Logo</h1> */}
-        <img src="/images/logo.png" className="mb-4" alt="" />
-        <p className="text-white">Your Gateway to Seamless Online Commerce.</p>
+        <img src="/images/logo.png" className="mb-4 w-32" alt="" />
+        <p className="text-white">Apexium Solutions: Powering Digital Success.</p>
       </div>
       <div>
         <h2 className="text-lg font-medium mb-4">Resources</h2>
@@ -36,7 +36,7 @@ const FooterNav = () => {
       <div>
         <h2 className="text-lg font-medium mb-4">Our Location</h2>
         <p className="text-[#D0CACA] my-1">
-          37 igode road maya, Lagos </p>
+          37 Igode Road Maya, Lagos </p>
         <p className="text-[#D0CACA] my-1">Call: (+234) 806-464-3107 <br />
           Email: info@apexiumsolutions.com.ng</p>
       </div>
