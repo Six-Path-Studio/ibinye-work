@@ -8,6 +8,7 @@ import Testimonials from './components/Testimonials'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import PricingCard from './components/PricingCard'
+import CounterSection from './components/Counter'
 function App() {
   const cards = [
     {
@@ -51,6 +52,7 @@ function App() {
   return (
     <>
       <Hero />
+      <CounterSection />
       <section className='lg:flex justify-between lg:p-20 p-4 sm:py-20'>
         <img data-aos="zoom-in" src="/images/hero-2.png" alt="" />
         <div data-aos="fade-up-right" className='lg:w-[45%] my-auto sm:mt-6'>
@@ -81,6 +83,16 @@ function App() {
       </section>
       <ServiceSection />
       <PricingCard count={3} />
+      <section id='bg' className='lg:p-32 sm:px-2 sm:py-20 text-center relative'>
+        <div className='absolute top-0 w-full left-0 bg-black h-full opacity-30'></div>
+        <div className='lg:w-1/2 mx-auto relative'>
+          <p className='lg:text-5xl text-3xl mb-3 font-bold text-white'>Transform Your Business with Innovative Solutions</p>
+          <p className='text-white my-4'>
+            Transform your business with innovative e-commerce solutions. Whether you need a dynamic online marketplace, seamless logistics support, or customized software development, Apexium Solutions is here to help you thrive in the digital age
+          </p>
+          <button className='p-4 rounded-full px-10 bg-[#FFC107] mt-4 '>Book now</button>
+        </div>
+      </section>
       <Testimonials />
     </>
   )

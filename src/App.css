@@ -37,7 +37,14 @@ ul li {
 
 .hero {
   background-color: #311BBC;
-  background-image: url('/images/pattern.svg');
+  /* background-image: url('/images/pattern.svg'); */
   background-repeat: no-repeat;
   background-position: right;
+}
+
+#bg {
+  background: url('/images/IMG0953.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
