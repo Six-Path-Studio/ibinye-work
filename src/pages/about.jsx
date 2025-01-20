@@ -1,8 +1,25 @@
 import ServiceSection from "../components/ServiceSection";
 import Header from "../components/Header";
+import Card from '../components/Card'
 
 const about = () => {
- 
+  const cards = [
+    {
+      title: "Innovation",
+      text: "At Apexium Solutions, we prioritize cutting-edge technology to redefine the e-commerce experience. From advanced digital platforms to personalized shopping features, we innovate to meet the evolving needs of businesses and consumers.",
+      image: "01"
+    },
+    {
+      title: "Trust",
+      text: "We are committed to building lasting relationships through transparency, reliability, and secure transactions. With tools like consumer protection mechanisms and dispute resolution, we ensure every interaction on our platform fosters confidence.",
+      image: "02"
+    },
+    {
+      title: "Customer-Centricity",
+      text: "Our success is driven by putting you first. We design seamless, user-friendly solutions tailored to enhance your online trading journey, ensuring satisfaction at every touchpoint.",
+      image: "03"
+    }
+  ]
   return (
     <>
       <Header title={'About Us'} text={'Home > About Us'} />
@@ -17,8 +34,17 @@ const about = () => {
           <button className="gradient p-4 rounded-full px-6 text-white mt-6">Book Now</button>
         </div>
       </section>
+      <section className='lg:p-20 p-4 sm:mb-6 '>
+        <div data-aos="fade-left" className='lg:w-[40%] mx-auto text-center mb-10'>
+          <p className='text-gradient'>The Values That Power Our Vision</p>
+          <h1 className='lg:text-5xl text-3xl font-medium'>Our Core Values</h1>
+        </div>
+        <div data-aos="fade-down" className='grid lg:grid-cols-3 gap-3'>
+          {cards.map((card, index) => <Card key={index} card={card} />)}
+        </div>
+      </section>
       <ServiceSection />
-      
+
     </>
   );
 };
