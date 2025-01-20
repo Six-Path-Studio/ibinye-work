@@ -9,7 +9,7 @@ const FooterNav = () => {
         <p className="text-white">Apexium Solutions: Powering Digital Success.</p>
       </div>
       <div>
-        <h2 className="text-lg font-medium mb-4">Resources</h2>
+        <h2 className="text-lg font-bold mb-4">Resources</h2>
         <Link to={'/'}>
           <p className="text-[#D0CACA] my-1">Home</p>
         </Link>
@@ -22,7 +22,7 @@ const FooterNav = () => {
       </div>
 
       <div>
-        <h2 className="text-lg font-medium mb-4">Important Links</h2>
+        <h2 className="text-lg font-bold mb-4">Important Links</h2>
         <Link to={'/'}>
           <p className="text-[#D0CACA] my-1">Privacy Policy</p>
         </Link>
@@ -34,7 +34,7 @@ const FooterNav = () => {
         </Link>
       </div>
       <div>
-        <h2 className="text-lg font-medium mb-4">Our Location</h2>
+        <h2 className="text-lg font-bold mb-4">Our Location</h2>
         <p className="text-[#D0CACA] my-1">
           37 Igode Road Maya, Lagos </p>
         <p className="text-[#D0CACA] my-1">Call: (+234) 806-464-3107 <br />

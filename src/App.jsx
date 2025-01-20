@@ -55,17 +55,17 @@ function App() {
       <section className='lg:flex justify-between lg:p-20 p-4 sm:py-20'>
         <img data-aos="zoom-in" src="/images/hero-2.png" alt="" />
         <div data-aos="fade-up-right" className='lg:w-[45%] my-auto sm:mt-6'>
-          <h1 className='lg:text-6xl text-4xl mb-2 font-medium'>Marketplace for Everyone</h1>
+          <h1 className='lg:text-6xl text-4xl mb-2 font-bold'>Marketplace for Everyone</h1>
           <p>We provide an all-in-one platform that connects consumers, businesses, and service providers, creating a hub for efficient and secure online transactions. </p>
           <div className='lg:flex mt-10'>
             <div>
               <img src="/images/icons/01.svg" alt="" />
-              <h1 className='my-4 text-lg font-medium'>Growing Your Business</h1>
+              <h1 className='my-4 text-lg font-bold'>Growing Your Business</h1>
               <p>Whether you&apos;re shopping for fashion, electronics, or home goods, we&apos;ve got you covered</p>
             </div>
             <div className='sm:mt-4'>
               <img src="/images/icons/02.svg" alt="" />
-              <h1 className='my-4 text-lg font-medium'>Retail Reinvented</h1>
+              <h1 className='my-4 text-lg font-bold'>Retail Reinvented</h1>
               <p>Our interactive web and mobile platforms make online retailing effortless. </p>
             </div>
           </div>
@@ -75,7 +75,7 @@ function App() {
       <section className='lg:p-20 p-4 sm:mb-6 '>
         <div data-aos="fade-left" className='lg:w-[40%] mx-auto text-center mb-10'>
           <p className='text-gradient'>Best Of Our Working Process</p>
-          <h1 className='lg:text-5xl text-3xl font-medium'>How our solutions help your business</h1>
+          <h1 className='lg:text-5xl text-3xl font-bold'>How our solutions help your business</h1>
         </div>
         <div data-aos="fade-right" className='grid lg:grid-cols-3 gap-3'>
           {cards.map((card, index) => <Card key={index} card={card} />)}

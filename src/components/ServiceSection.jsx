@@ -7,7 +7,7 @@ const ServiceSection = () => {
       <section className="bg-[#444444] lg:flex justify-between">
         <div data-aos="fade-up-left" className="lg:w-[45%] my-auto lg:p-20 sm:py-10 p-4">
           <p className="text-gradient sm:text-xs">Your Gateway to Seamless Technological Solutions</p>
-          <h1 className="lg:text-7xl text-4xl font-medium">Experience the Apex of Innovation</h1>
+          <h1 className="lg:text-7xl text-4xl font-bold">Experience the Apex of Innovation</h1>
           <p className="py-4">Start your journey with Apexium today. Whether you&apos;re a buyer, seller, or service provider, we make online commerce smarter, faster, and easier for you.</p>
           <button className="bg-[#FFC107] p-4 px-10 rounded-full mr-4">Book Now</button>
           <Link to={'/services'}>

@@ -40,7 +40,7 @@ const Hero = () => {
       {/* Content Section */}
       <div className="relative z-10 my-auto lg:w-[60%] mx-auto text-center p-6 rounded-lg">
         <h1 data-aos="fade-right"
-          className="lg:text-6xl text-4xl text-white font-medium">
+          className="lg:text-6xl text-4xl text-white font-bold">
           Powering Digital Success
         </h1>
         <p data-aos="fade-up" className="my-6 text-white">

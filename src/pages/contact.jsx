@@ -6,7 +6,7 @@ const contact = () => {
       <Header title={'Contact Us'} text={'Home > Contact Us'} />
       <section data-aos="zoom-in-down" className="lg:px-20 py-20 p-4 lg:flex justify-between">
         <div className="lg:w-[35%]">
-          <h1 className="text-4xl text-[#ffc107] font-medium">Have Questions? <br /> Let’s Chat!</h1>
+          <h1 className="text-4xl text-[#ffc107] font-bold">Have Questions? <br /> Let’s Chat!</h1>
           <p className="my-4 text-white">Write to us or give us a call. We will reply to you as soon
             as possible. But yes, it can take up to 24 hours.</p>
           <div className="flex my-4">

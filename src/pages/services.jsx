@@ -41,7 +41,7 @@ const services = () => {
       <Header title={'Our Services'} text={'Home > Services'} />
       <section data-aos="zoom-in" className='lg:p-20 sm:py-10 p-4'>
         <div className='lg:w-[60%] mx-auto text-center mb-10'>
-          <h1 className='lg:text-5xl text-3xl font-medium'>What we do</h1>
+          <h1 className='lg:text-5xl text-3xl font-bold'>What we do</h1>
         </div>
         <div className='grid lg:grid-cols-3 gap-3'>
           {cards.map((card, index) => <Card key={index} card={card} />)}

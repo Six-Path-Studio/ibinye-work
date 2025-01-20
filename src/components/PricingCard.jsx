@@ -36,11 +36,11 @@ const PricingCard = ({ count }) => {
     <section data-aos="flip-down" className="lg:px-20 px-4 py-10">
       <div className='lg:w-[40%] mx-auto text-center mb-10'>
         <p className="sm:text-xs">Best Of Our Price Table</p>
-        <h1 className='lg:text-5xl text-3xl font-medium'>Apexium Solutions Pricing Plans</h1>
+        <h1 className='lg:text-5xl text-3xl font-bold'>Apexium Solutions Pricing Plans</h1>
       </div>
       <div className="grid lg:grid-cols-3 gap-3">
         {pricing.slice(0, count).map((price, index) => <div key={index} className="text-center bg-[#444444] p-10 rounded-3xl">
-          <h1 className="text-3xl mb-4 font-medium">{price.title}</h1>
+          <h1 className="text-3xl mb-4 font-bold">{price.title}</h1>
           <ul className="text-sm">
             {price.list.map((single, index) => <li key={index}>{single}</li>
             )}
@@ -49,8 +49,8 @@ const PricingCard = ({ count }) => {
           <li>3-month support and maintenance</li> */}
           </ul>
           <div className="flex justify-center my-4">
-            <h2 className="my-auto mr-2 text-white font-medium">$</h2>
-            <h2 className="text-xl text-white font-medium">{price.price}</h2>
+            <h2 className="my-auto mr-2 text-white font-bold">$</h2>
+            <h2 className="text-xl text-white font-bold">{price.price}</h2>
           </div>
           <button className="gradient p-4 rounded-full px-6 text-white">Book Now</button>
         </div>)}
