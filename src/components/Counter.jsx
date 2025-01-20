@@ -16,10 +16,10 @@ const CounterSection = () => {
             <CountUp
               start={0}
               end={counter.value}
-              duration={2.5}
-              className="lg:text-7xl text-4xl font-bold text-[#FFC107]"
+              duration={8.5}
+              className="lg:text-5xl text-3xl font-bold text-[#FFC107]"
             />
-            <p className="mt-2 sm:font-bold sm:text-sm text-lg text-white uppercase">{counter.title}</p>
+            <p className="mt-2 sm:font-bold sm:text-sm text-base text-white uppercase">{counter.title}</p>
           </div>
         ))}
       </div>

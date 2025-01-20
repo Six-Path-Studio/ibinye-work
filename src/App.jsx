@@ -84,8 +84,8 @@ function App() {
       <ServiceSection />
       <PricingCard count={3} />
       <section id='bg' className='lg:p-32 sm:px-2 sm:py-20 text-center relative'>
-        <div className='absolute top-0 w-full left-0 bg-black h-full opacity-30'></div>
-        <div className='lg:w-1/2 mx-auto relative'>
+        <div className='absolute top-0 w-full left-0 bg-black h-full opacity-50'></div>
+        <div className='lg:w-[60%] mx-auto relative'>
           <p className='lg:text-5xl text-3xl mb-3 font-bold text-white'>Transform Your Business with Innovative Solutions</p>
           <p className='text-white my-4'>
             Transform your business with innovative e-commerce solutions. Whether you need a dynamic online marketplace, seamless logistics support, or customized software development, Apexium Solutions is here to help you thrive in the digital age

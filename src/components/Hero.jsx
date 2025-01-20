@@ -34,11 +34,11 @@ const Hero = () => {
           />
         ))}
       </div>
-      <div className="absolute bg-black bg-opacity-20 top-0 w-full h-full left-0">
+      <div className="absolute bg-black bg-opacity-50 top-0 w-full h-full left-0">
       </div>
 
       {/* Content Section */}
-      <div className="relative z-10 my-auto lg:w-1/2 mx-auto text-center bg-black bg-opacity-50 p-6 rounded-lg">
+      <div className="relative z-10 my-auto lg:w-[60%] mx-auto text-center p-6 rounded-lg">
         <h1 className="lg:text-6xl text-4xl text-white font-medium">
           Powering Digital Success
         </h1>
