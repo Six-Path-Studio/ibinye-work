@@ -24,7 +24,7 @@ const about = () => {
     <>
       <Header title={'About Us'} text={'Home > About Us'} />
       <section className="lg:flex justify-between">
-        <img src="/images/about-1.png" alt="" />
+        <img src="/images/about-img.jpg" className="lg:w-1/2" alt="" />
         <div className="lg:w-1/2 my-auto lg:p-10 p-4">
           <h1 className="lg:text-6xl text-3xl sm:mt-6 font-medium mb-4">Building Innovative Solutions.</h1>
           <p>Welcome to Apexium Solutions, your trusted partner in innovative e-commerce and digital solutions. We are dedicated to transforming the online shopping experience by providing a secure, user-friendly platform that connects consumers, businesses, and service providers across local and global markets. From retail and wholesale transactions in categories like fashion, electronics, and home goods to offering comprehensive logistics services, including packaging and delivery, we ensure seamless and efficient operations.

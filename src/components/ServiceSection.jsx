@@ -14,7 +14,7 @@ const ServiceSection = () => {
             <button className="p-4 rounded-full px-10 bg-white">Know More</button>
           </Link>
         </div>
-        <img data-aos="fade-up-right" className="sm:mt-4" src="/images/about.png" alt="" />
+        <img data-aos="fade-up-right" className="sm:mt-4 lg:w-1/2" src="/images/hero2.jpg" alt="" />
       </section>
     </>
   );
