@@ -66,7 +66,7 @@ const HeaderNav = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <nav className="lg:hidden bg-[#311BBC] px-4 py-5 space-y-4">
+        <nav className="lg:hidden bg-[#444444] px-4 py-5 space-y-4">
           <Link to="/" className="block text-white hover:text-[#FFC107]" onClick={() => setIsMenuOpen(false)}>
             Home
           </Link>
