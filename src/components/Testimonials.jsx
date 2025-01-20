@@ -26,7 +26,7 @@ const Testimonials = () => {
     },
   ]
   return (
-    <section className="bg-white lg:px-20 p-4 py-20 relative">
+    <section className=" lg:px-20 p-4 py-20 relative">
       <p className="text-gradient sm:text-sm text-center">Digital Analytics & Strategy Consulting Agency</p>
       <h1 className="lg:text-6xl text-3xl font-medium text-center">What our clients say</h1>
       <img src="/images/01.svg.png" className="absolute top-10 sm:hidden" alt="" />

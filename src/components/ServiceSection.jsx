@@ -4,7 +4,7 @@ const ServiceSection = () => {
  
   return (
     <>
-      <section className="bg-[#EDE2FF] lg:flex justify-between">
+      <section className="bg-[#444444] lg:flex justify-between">
         <div data-aos="fade-up-left" className="lg:w-[45%] my-auto lg:p-20 sm:py-10 p-4">
           <p className="text-gradient sm:text-xs">Your Gateway to Seamless Online Commerce</p>
           <h1 className="lg:text-7xl text-4xl font-medium">Experience <br /> the Future of <br /> E-commerce.</h1>

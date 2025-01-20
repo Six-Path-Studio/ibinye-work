@@ -34,26 +34,28 @@ const Hero = () => {
           />
         ))}
       </div>
-      <div className="absolute bg-black bg-opacity-50 top-0 w-full h-full left-0">
+      <div className="absolute bg-black bg-opacity-80 top-0 w-full h-full left-0">
       </div>
 
       {/* Content Section */}
       <div className="relative z-10 my-auto lg:w-[60%] mx-auto text-center p-6 rounded-lg">
-        <h1 className="lg:text-6xl text-4xl text-white font-medium">
+        <h1 data-aos="fade-right"
+          className="lg:text-6xl text-4xl text-white font-medium">
           Powering Digital Success
         </h1>
-        <p className="my-6 text-white">
+        <p data-aos="fade-up" className="my-6 text-white">
           At Apexium Solutions, we partner with businesses and consumers to
           navigate the dynamic digital landscape. We provide a suite of
           innovative tools and platforms that streamline processes, enhance
           customer experiences, and unlock new opportunities for growth in the
           ever-evolving online marketplace.
         </p>
-        <button className="bg-[#FFC107] sm:w-full sm:mb-4 p-4 px-10 rounded-full mr-4">
+        {/* <button className="bg-[#FFC107] sm:w-full sm:mb-4 p-4 px-10 rounded-full mr-4">
           Book Now
-        </button>
+        </button> */}
         <Link to={"/services"}>
-          <button className="p-4 rounded-full sm:w-full px-10 bg-white">Know More</button>
+          <button data-aos="fade-left"
+            className="p-4 rounded-full sm:w-full px-10 bg-[#FFC107]">Know More</button>
         </Link>
       </div>
     </section>

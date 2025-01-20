@@ -2,7 +2,7 @@
 
 body {
   font-family: "DM Sans", serif;
-  background-color: #F1EFEF;
+  background-color: #292929;
 }
 
 html,
@@ -11,11 +11,11 @@ body {
 }
 
 h1 {
-  color: #27272F;
+  color: #ffffff;
 }
 
 p {
-  color: #1D1D1D;
+  color: #fff;
 }
 
 .gradient {
@@ -23,16 +23,13 @@ p {
 }
 
 .text-gradient {
-  background: linear-gradient(86.55deg, #8E2DE2 24.13%, #4A00E0 78.74%);
-  color: transparent;
-  background-clip: text;
-
+  color: #ffc107;
 }
 
 ul li {
   list-style-type: disc;
   list-style-position: inside;
-  color: #303030;
+  color: white;
 }
 
 .hero {
