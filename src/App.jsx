@@ -14,32 +14,32 @@ function App() {
     {
       title: "Sell Smarter, Reach Further",
       text: "We help businesses showcase their products with advanced search features, digital marketing, and personalized shopping experiences.",
-      image: "01"
+      image: "sell"
     },
     {
       title: "Reliable Logistics",
       text: "From warehousing and packaging to delivery, we ensure that every product sold through our platform reaches customers quickly and secu=rely.",
-      image: "02"
+      image: "Logistics"
     },
     {
       title: "Build Trust with Every Transaction",
       text: "With tools like product reviews, comparison features, and dispute resolution mechanisms, we enhance user confidence and satisfaction.",
-      image: "03"
+      image: "transaction"
     },
     {
       title: "Custom Software for Every Industry",
       text: "Our team of experts designs and develops custom software applications, tools, and frameworks tailored to solve specific challenges across various industries.",
-      image: "01"
+      image: "custom"
     },
     {
       title: "IT Solutions That Work",
       text: "From data processing to brand building, call centers, and educational services, we provide a suite of IT solutions to help businesses succeed in today’s competitive world.",
-      image: "02"
+      image: "IT"
     },
     {
       title: "Comprehensive Services",
       text: "From online trading to logistics and IT services, we cover it all.",
-      image: "03"
+      image: "comprehensive"
     }
   ]
 
@@ -59,12 +59,12 @@ function App() {
           <p>We provide an all-in-one platform that connects consumers, businesses, and service providers, creating a hub for efficient and secure online transactions. </p>
           <div className='lg:flex mt-10'>
             <div>
-              <img src="/images/icons/01.svg" alt="" />
+              <img src="/images/icons/grow.svg" alt="" />
               <h1 className='my-4 text-lg font-bold'>Growing Your Business</h1>
               <p>Whether you&apos;re shopping for fashion, electronics, or home goods, we&apos;ve got you covered</p>
             </div>
             <div className='sm:mt-4'>
-              <img src="/images/icons/02.svg" alt="" />
+              <img src="/images/icons/grow-2.svg" alt="" />
               <h1 className='my-4 text-lg font-bold'>Retail Reinvented</h1>
               <p>Our interactive web and mobile platforms make online retailing effortless. </p>
             </div>

@@ -7,17 +7,17 @@ const about = () => {
     {
       title: "Innovation",
       text: "At Apexium Solutions, we prioritize cutting-edge technology to redefine the e-commerce experience. From advanced digital platforms to personalized shopping features, we innovate to meet the evolving needs of businesses and consumers.",
-      image: "01"
+      image: "innovate"
     },
     {
       title: "Trust",
       text: "We are committed to building lasting relationships through transparency, reliability, and secure transactions. With tools like consumer protection mechanisms and dispute resolution, we ensure every interaction on our platform fosters confidence.",
-      image: "02"
+      image: "secure"
     },
     {
       title: "Customer-Centricity",
       text: "Our success is driven by putting you first. We design seamless, user-friendly solutions tailored to enhance your online trading journey, ensuring satisfaction at every touchpoint.",
-      image: "03"
+      image: "user"
     }
   ]
   return (
