@@ -2,7 +2,7 @@
 const PricingCard = ({ count }) => {
   const pricing = [
     {
-      title: "Ecommerce Development",
+      title: "E-commerce Development",
       price: '8,000',
       list: ["Cross-border payment", 'International Remittances', 'Simplified gateway', 'Transaction security', 'Best transaction fee', "Multi-language and currency support", "Customizable store design and layout"]
     },
